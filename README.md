@@ -32,8 +32,6 @@ The goal is to identify distinct groups of customers based on their **Annual Inc
 - Scatterplot of **Income vs Spending** revealed natural clusters.  
 - Gender distribution analyzed with boxplots.  
 
-📷 *Example visualization:*  
-![Income vs Spending](images/income_vs_spending.png)  
 
 ### 🔹 3. Preprocessing  
 - Selected features: **Annual Income (k$)** and **Spending Score (1-100)**.  
@@ -43,15 +41,13 @@ The goal is to identify distinct groups of customers based on their **Annual Inc
 - **Elbow Method** → best at **K=5**.  
 - **Silhouette Score** ≈ 0.5 (fair quality).  
 
-📷 *Example visualization:*  
-![Elbow Method](images/elbow_method.png)  
+
 
 ### 🔹 5. K-Means Clustering  
 - Applied K-Means with **5 clusters**.  
 - Cluster centers plotted.  
 
-📷 *Cluster visualization:*  
-![Customer Segments](images/kmeans_clusters.png)  
+
 
 | Cluster | Profile | Description |
 |---------|----------|-------------|
@@ -64,8 +60,7 @@ The goal is to identify distinct groups of customers based on their **Annual Inc
 ### 🔹 6. Gender Analysis per Cluster  
 - Gender distribution analyzed across clusters.  
 
-📷 *Example visualization:*  
-![Gender Distribution](images/gender_distribution.png)  
+
 
 ---
 
@@ -83,10 +78,5 @@ K-Means provided **5 clear customer segments** that can guide **marketing strate
 Gender analysis further enriched insights, showing how **demographics interact with spending behavior**.  
 
 ---
-
-📜 License
-
-This project is licensed under the MIT License.
-
 
 
